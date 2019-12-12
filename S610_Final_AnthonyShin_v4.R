@@ -24,8 +24,6 @@ text <- readLines("https://github.com/anthonysshin/markov/blob/master/653-0.txt"
 test <- gsub("\\d", "", text)
 text <- gsub("<.+?>", "", text)
 text <- gsub("[:punct:]]", "", text)
-
-## remove all numbers
 text <- tibble(text)
 
 ## The order of words (n-grams); the number must be larger than 1
