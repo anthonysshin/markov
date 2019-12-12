@@ -19,6 +19,7 @@ library(tidytext)
 ## The text source is from HW1: The Project Gutenberg eBook, The Chimes, by Charles Dickens.
 text <- readLines("https://github.com/anthonysshin/markov/blob/master/653-0.txt")
 ## text <- readLines("https://github.com/anthonysshin/markov/blob/master/653-0.txt")
+## text <- readLines("https://github.com/anthonysshin/markov/blob/master/653-0.txt")
 
 ## Removed unnessary characters, such as number, puctuation, and html tags, if any.
 test <- gsub("\\d", "", text)
