@@ -16,7 +16,6 @@ text <- gsub("[:punct:]]", "", text)
 text <- tibble(text)
 
 ## the order of words (n-grams); the number must be larger than 1
-## the order of words (n-grams); the number must be larger than 1
 ngram <- 3     
 
 ## the length of output text
